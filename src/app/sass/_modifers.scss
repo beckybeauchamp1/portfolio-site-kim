@@ -1,0 +1,33 @@
+/**
+ * Fonts
+ * Google fonts import and font family classes
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:800|Asul|Bitter|Khula:700|Nobile|Vesper+Libre|Playfair+Display|');
+
+@font-face {
+    font-family: 'GT Walsheim Bold';
+    src: url("../fonts/gt-walsheim-pro-bold.woff") format("opentype");
+}
+
+ .nobile {
+     font-family: 'Nobile', sans-serif  !important;
+ }
+ .khula {
+     font-family: 'Khula', sans-serif  !important;
+ }
+ .assistant {
+     font-family: 'Assistant', sans-serif  !important;
+ }
+ .bitter {
+     font-family: 'Bitter', serif  !important;
+ }
+ .vesper-libre {
+     font-family: 'Vesper Libre', serif  !important;
+ }
+ .asul {
+     font-family: 'Asul', sans-serif  !important;
+ }
+  .playfair-display {
+      font-family: 'Playfair Display', sans-serif  !important;
+  }
