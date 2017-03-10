@@ -3,7 +3,7 @@
  * Google fonts import and font family classes
  */
 
-@import url('https://fonts.googleapis.com/css?family=Assistant:800|Asul|Bitter|Khula:700|Nobile|Vesper+Libre|Playfair+Display|');
+@import url('https://fonts.googleapis.com/css?family=Assistant:800|Asul|Bitter|Khula:700|Nobile|Vesper+Libre|Playfair+Display|Droid+Sans|Catamaran|');
 
 @font-face {
     font-family: 'GT Walsheim Bold';
@@ -28,6 +28,12 @@
  .asul {
      font-family: 'Asul', sans-serif  !important;
  }
-  .playfair-display {
-      font-family: 'Playfair Display', sans-serif  !important;
-  }
+.playfair-display {
+  font-family: 'Playfair Display', sans-serif  !important;
+}
+.droid-sans {
+  font-family: 'Droid Sans', sans-serif  !important;
+}
+.catamaran {
+  font-family: 'Catamaran', sans-serif  !important;
+}
