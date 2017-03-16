@@ -1,13 +1,26 @@
 <div class="header khula">
     <nav class="flex nav">
-        <md-button ng-repeat="link in navigationLinks" md-no-ink class="md-primary md-raised flex-item">
-            {{link.label}}
-        </md-button>
+        <div class="nav-link-container flex-item" ng-repeat="link in navigationLinks">
+            <md-button class="md-primary link center">
+                {{link.label}}
+            </md-button>
+        </div>
     </nav>
     <h1 class="title droid-sans">Kim's Website</h1>
 </div>
 
-<main class="flex main">
-    <h2 class="main-header flex-item playfair-display">Writer</h2>
-    <h2 class="main-header flex-item playfair-display">Editor</h2>
-<main>
+<main class="main">
+
+    <!-- <div class="circle-container">
+        <div class="circle-divs"><div class="circle-item"></div></div>
+        <div class="circle-divs"><div class="circle-item"></div></div>
+        <div class="circle-divs"><div class="circle-item"></div></div>
+    </div> -->
+    <div class="flex">1</div>
+    <div class="flex">2</div>
+    <div class="flex">3</div>
+    <div class="flex">4</div>
+
+    <!-- <h2 class="main-header playfair-display">Writer</h2>
+    <h2 class="main-header playfair-display">Editor</h2> -->
+</main>
